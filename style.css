@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card {
+    width: 335px;
+    color: #fff;
+    padding: 30px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    & .date {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        & p {
+            font-size: 20px;
+        }
+    }
+
+    & i {
+        font-size: 90px;
+    }
+}
+
+.bg-noite {
+    background-color: #162755;
+}
+
+.bg-manha {
+    background-color: #6790ff;
+}
+
+.bg-tarde {
+    background-color: #eea531;
+}
